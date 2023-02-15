@@ -11,7 +11,8 @@
 
 ## Start Project
       1. clone project
-      2. start backend server & frontend server using npm run dev
+      2. install node module 
+      3. start backend server & frontend server using npm run dev
       
 ## Requirement
       o Create the video demonstration of your assignment (.mov, .avi or .mp4 ) and upload to your bitbucket under “Info” folder.
