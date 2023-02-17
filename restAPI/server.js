@@ -18,9 +18,9 @@ Contact     = require('./api/models/contactListModel')
 User        = require('./api/models/userListModel')
 bodyParser  = require('body-parser')
 
-//User:SHihoz, PW:123456
+//User:xxx, PW:yyy
 
-const MONGODB_URL = 'mongodb+srv://SHihoz:12345@contactlist.obkkx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const MONGODB_URL = 'mongodb+srv://xxx:yyy@contactlist.obkkx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
 mongoose.Promise = global.Promise
 mongoose.connect(MONGODB_URL || 'mongodb://localhost/ContactList', function(error){
     if(error) throw error
